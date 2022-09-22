@@ -1,0 +1,365 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hello",
+                "hey",
+                "hi",
+                "good day",
+                "greetings",
+                "what's up",
+                "hello"
+            ],
+            "responses": [
+                "Hello!",
+                "Hey!",
+                "What can I do for you",
+                "How can I help you",
+                "what are your queries"
+            ]
+        },
+        {
+            "tag": "fresher",
+            "patterns": [
+                "I am a fresher",
+                "i am new to college",
+                "i am going to join college"
+            ],
+            "responses": [
+                "How can I help you",
+                "what do you want know about the college",
+                "What do you expect from me",
+                "how can i help you"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day",
+                "Bye",
+                "i am saikumar"
+            ],
+            "responses": [
+                "Talk to you later",
+                "Goodbye!"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How to contact the office of college"
+            ],
+            "responses": [
+                "Website:https://www.gvpce.ac.in/, Email ID:gvpce@yahoo.com , Contact number: 91-891-2739507"
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What are the facilities available?",
+                "Facilities?",
+                "is there any canteen",
+                "is there any atm"
+            ],
+            "responses": [
+                "Canteens, Health centre, Trasport facilities for faculties and day-scholars,ATMs"
+            ]
+        },
+        {
+            "tag": "student",
+            "patterns": [
+                "I am a Student",
+                "i am student of this college"
+            ],
+            "responses": [
+                "How can I help you",
+                "what do you want know about the college",
+                "What do you expect from me"
+            ]
+        },
+        {
+            "tag": "timimgs",
+            "patterns": [
+                "What are college timings",
+                "what is college starting time",
+                "when college ends"
+            ],
+            "responses": [
+                "The college starts from 8:40am and ends at 5:00pm"
+            ]
+        },
+        {
+            "tag": "bus",
+            "patterns": [
+                "Is bus facility available?,Is same bus is provided for all years?"
+            ],
+            "responses": [
+                "Yes bus facility is provided by our college ofcourse same bus is provided for all the years",
+                "No buses go only on highway"
+            ]
+        },
+        {
+            "tag": "bus stop",
+            "patterns": [
+                "What are the bus stops?",
+                "what are places where bus facility is peovikded by college"
+            ],
+            "responses": [
+                "The stops of buses are gajuwaka,gopalapatnam,complex"
+            ]
+        },
+        {
+            "tag": "ragging",
+            "patterns": [
+                "Is ragging present in your college",
+                "Does seniors do ragging to juniors",
+                "Does seniors assign works to juniors as part of ragging"
+            ],
+            "responses": [
+                "There is no ragging at all in our college",
+                "Ragging is Strictly prohibited in our college",
+                "There are many anti ragging committee to care of these ragging issues",
+                "There is no assignment of work by seniors to juniors,there is a friendly relationship between seniors and juniors "
+            ]
+        },
+        {
+            "tag": "placements",
+            "patterns": [
+                "Does many people place in the companies at the end of the B.Tech",
+                "Does high paying companies come to your college",
+                "What comapnies visit to your college"
+            ],
+            "responses": [
+                "yes,Maximum people at the end of the B Tech get placed",
+                "Yes all type of companies visit our college like amazon,cognizant,TCS,Infosys,Capgemini,Mindtree"
+            ]
+        },
+        {
+            "tag": "branches",
+            "patterns": [
+                "What branches are present in your college",
+                "How many branches are present in your college",
+                "branch"
+            ],
+            "responses": [
+                "Computer Science and Engineering,Electronics and communication Engineering,Information and Technology,Electrical Electronics Engineering,CSE-AI-ML,CSE-DS,Chemical Engineering,Mechanical Engineering,Civil Engineering"
+            ]
+        },
+        {
+            "tag": "clubs",
+            "patterns": [
+                "What type of clubs are there in this college?",
+                "Do this college have any clubs?"
+            ],
+            "responses": [
+                "Rotract club,NSS,WeR4Help,YES,Vidyadaan and many more"
+            ]
+        },
+        {
+            "tag": "industry",
+            "patterns": [
+                "Will there be any industrial projects?",
+                "Will there be industrial tour by college"
+            ],
+            "responses": [
+                "depending on the type of industrial project the college provides guidance",
+                "Depending on the project college sends to the industry"
+            ]
+        },
+        {
+            "tag": "labs",
+            "patterns": [
+                "how many labs are present in cse department?"
+            ],
+            "responses": [
+                "four labs are present",
+                "4 labs are present"
+            ]
+        },
+        {
+            "tag": "labdirection",
+            "patterns": [
+                "Where is Lab3A?",
+                "Where is Lab 3A?"
+            ],
+            "responses": [
+                "In cse block B3 first floor take right and then left side first lab"
+            ]
+        },
+        {
+            "tag": "labdirectionIBM",
+            "patterns": [
+                "Where is IBM lab?"
+            ],
+            "responses": [
+                "In CSE block B3 first floor take left",
+                "Beside main auditoruim"
+            ]
+        },
+        {
+            "tag": "labdirection3B",
+            "patterns": [
+                "Where is Lab3B?",
+                "Where is Lab 3B?"
+            ],
+            "responses": [
+                "In cse block B3 first floor take right and then left side second lab"
+            ]
+        },
+        {
+            "tag": "labdirection3C",
+            "patterns": [
+                "Where is Lab 3C",
+                "Where is Lab3C"
+            ],
+            "responses": [
+                "In cse block B3 first floor take right and then right side last lab"
+            ]
+        },
+        {
+            "tag": "Holiday",
+            "patterns": [
+                "Will GVP give holidays",
+                "Holidays",
+                "Leave",
+                "Leaves",
+                "Holiday",
+                "Vacation",
+                "Vacations"
+            ],
+            "answer": [
+                "GVP's holiday list will be circulated through your email id before the start of each semester"
+            ]
+        },
+        {
+            "tag": "Basic Attendance",
+            "patterns": [
+                "attendance",
+                "minimum attendance",
+                "what is the minimum attendance",
+                "how many classes should we attend"
+            ],
+            "answer": [
+                "Students are required to maintain a minimum of 75% attendance in each course"
+            ]
+        },
+        {
+            "tag": "thank you",
+            "patterns": [
+                "Thanks",
+                "Thank you"
+            ],
+            "answer": [
+                "Thank you",
+                "welcome"
+            ]
+        },
+        {
+            "tag": "Hostel food",
+            "patterns": [
+                "Is non Veg available?",
+                "Veg or Non veg",
+                "North Indian food",
+                "south Indian",
+                "Mess food"
+            ],
+            "answer": [
+                "college provide only vegiterian food"
+            ]
+        },
+        {
+            "tag": "Sports",
+            "patterns": [
+                "What are the sport activities available?",
+                "Which sports team is there in GVP?",
+                "Can you list the games played?",
+                "Is physical activities given priority?"
+            ],
+            "answer": [
+                "We have college teams in cricket,Basket ball,Football,Badminton,Tennis,Volley ball,Table tennis,Chess"
+            ]
+        },
+        {
+            "tag": "Library",
+            "patterns": [
+                "Can you give details about libary",
+                "What are the library working  hours",
+                "How can I borrow  books from library?",
+                "how many days can i keep books borrowed from library?",
+                "DO I needId card for  library"
+            ],
+            "answer": [
+                "!Library is open from 8.00 am to 11:59 p.m and books are issued to students, students study and should return to library"
+            ]
+        },
+        {
+            "tag": "Additional learning",
+            "patterns": [
+                "How can I get marks in additional learning",
+                "criteria for additional learning",
+                "does publication of research paper give extra marks ",
+                "Will online courses be counted for grades?"
+            ],
+            "answer": [
+                "ONline courses,research papers,participation in Make-a-thon and other technical activities are considered for additional learning  for maximum three courses if relevant documents are uploaded"
+            ]
+        },
+        {
+            "tag": "backlog",
+            "patterns": [
+                "passing criteria?",
+                "How to clear backlogs"
+            ],
+            "answer": [
+                "We maintain a passing criteria of 40% overall. Students should also secure 40% in each of the examinations conducted, and students are expected to maintain 75% attendance in all the subjects. Students would be debarred from writing an exam if they involve in any malpractices or do not meet the attendance criteria.students can reregister to course if he/she can clear the subject"
+            ]
+        },
+        {
+            "tag": "Auditorium",
+            "patterns": [
+                "auditorium?",
+                "Where does conferences take place?",
+                "are the auditoriums air-conditioned",
+                "capacity of the auditorium"
+            ],
+            "answer": [
+                "We have three big auditoriums which can accommodate atleast 400 students and ,it has been built with centralised air conditioners ,Wi-fi service and a spectacular stage along with perfect amount of lighting."
+            ]
+        },
+        {
+            "tag": "Faculty",
+            "patterns": [
+                "faculty info",
+                "faculty?",
+                "are the faculties qualified?"
+            ],
+            "answer": [
+                "Our faculty are highly qualified, committed, and experienced, and are committed to remaining technically current and providing a world-class education to our students."
+            ]
+        },
+        {
+            "tag": "ID cards",
+            "patterns": [
+                "id?",
+                "id card"
+            ],
+            "answer": [
+                "Our Administration ensures students to wear ID card during campus, Main gate entry, Examinations etc."
+            ]
+        },
+        {
+            "tag": "ID card lost",
+            "patterns": [
+                "what happens if I lose my ID card?",
+                "ID card lost?"
+            ],
+            "answer": [
+                "GVP will re issue your ID card but you have to pay some fine(200/-) in the office and you have to re-apply for ID card. You can contact Student record section and apply there.Then you will be directed to administrative office where you will get your new ID card."
+            ]
+        }
+    ]
+}
